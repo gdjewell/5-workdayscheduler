@@ -18,7 +18,7 @@ currentDayClass.text(currentDay);
 
 
 function createWorkHours() {
-  $(document).ready(function() {
+ 
 
 // Set times from 6 AM to 5 PM in a for loop, and create a new row, new Div, new Paragraph, and new Button for each section, and add appropriate classes.
 for (i = 6; i <= 17; i++) {
@@ -69,7 +69,7 @@ newParagraph.val(inputVal)
 
 }
 
-})
+
 }
 
 
